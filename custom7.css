@@ -1,0 +1,84 @@
+@media screen and (max-width: 1024px) {
+  /* 텍스트 전체 블록 중앙 정렬 */
+  .main-text, .main-text p {
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .main-text {
+    padding-top: 35px;
+  }
+
+  /* 텍스트 요소 위치 및 크기 조정 */
+  .main-text2,
+  .main-date {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    font-size: 24px; /* 모바일용 적절한 크기 */
+  }
+
+  .main-text2 {
+    margin-top: -10px;
+  }
+
+  .main-date span {
+    font-size: 15px;
+  }
+
+  /* after 이미지 크기 조정 */
+  .main-text .main-text2:after {
+    font-size: 50px;
+    position: absolute;
+    zoom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+  }
+
+  .main-text1:after {
+    font-size: 20px;
+  }
+
+  .main-text3 {
+    padding-top: 100px;
+  }
+
+  .main-text3 span {
+    font-size: 15px;
+  }
+
+  /* 섹션 높이 등 조정 */
+  .section-promotion .section-promotion__list {
+    height: 230px !important;
+  }
+
+  .section-promotion {
+    top: 0;
+    padding-top: 50px !important;
+  }
+
+  .section-promotion .section-promotion__list li {
+    top: 0;
+  }
+
+  /* 사이드 이미지 */
+  #showsidebar1 img,
+  #showsidebar2 img,
+  #showsidebar3 img {
+    height: 100px !important;
+  }
+
+  #showsidebar3 {
+    bottom: 36% !important;
+  }
+
+  #showsidebar2 {
+    bottom: 22% !important;
+  }
+
+  #showsidebar1 {
+    bottom: 8% !important;
+  }
+}
