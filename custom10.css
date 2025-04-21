@@ -1,0 +1,73 @@
+.main-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  color: #fff;
+  padding-top: 175px;
+  z-index: 2;
+  text-align: center;
+}
+
+.main-text2 {
+  font-size: 48px;
+  margin-top: -30px;
+  color: #fff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.main-text .main-text2:after {
+  content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh440E92gaOxvtPgooSmcUGJmumtxblGhSPgvspuo4UyHXyhzxaPOlKAnPQt4B446lPqafPMn445EG34nU8jc0BU0hTrEzEQpM4QT2nRxxktPrDO244PdUnSbXpCqN8f_iuQBK7sSYIg1nzBDfbk5dWUu_i9KDqoBpi7iJw8NKg_qomky75ZaJTIyAZ-4k1/s16000/ACE%20%EB%A9%94%EC%9D%B8%20%EB%A1%9C%EA%B3%A0.png");
+  font-size: 51px;
+  display: block;
+  margin: 0 auto;
+  zoom: 80%;
+  text-align: center;
+  filter: drop-shadow(0px 0px 1px #000);
+}
+
+.main-date {
+  position: absolute;
+  top: 250px; /* 적절히 조정 가능 */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.main-date span {
+  font-size: 36px;
+  color: #fff;
+  border-radius: 15px;
+  font-family: 'HeirofLightBold';
+  filter: drop-shadow(1px 2px 3px #000);
+}
+
+@media screen and (max-width: 1024px) {
+  .main-text {
+    padding-top: 60px;
+  }
+
+  .main-text2 {
+    font-size: 24px;
+    margin-top: -10px;
+  }
+
+  .main-text .main-text2:after {
+    zoom: 50%;
+  }
+
+  .main-date {
+    top: 140px;
+  }
+
+  .main-date span {
+    font-size: 14px;
+  }
+}
