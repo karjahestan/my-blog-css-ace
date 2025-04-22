@@ -80,7 +80,7 @@
 }
 
 .section-promotion .section-promotion__list {
-  height: 750px !important;
+  height: 750px !important; /* 영상 높이 */
 }
 
 .section-promotion .section-promotion__list li {
