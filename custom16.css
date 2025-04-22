@@ -29,6 +29,8 @@
   color: #FAECC5;
   filter: drop-shadow(0px 0px 1px #000);
   zoom: 80%;
+  position: absolute; /* 위치 조정 활성화 */
+  top: 50px; /* 상단으로 50px 이동 */
 }
 
 @keyframes neon-flicker {
